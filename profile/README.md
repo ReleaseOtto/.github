@@ -1,4 +1,12 @@
-## Release Otto
+## Release Otto :robot:
+The idea behind Release Otto, is automated release chaining, meaning that one release of can trigger some kind of action elsewhere, effectively chaining releases of different kidns together. 
+
+This for example can be:
+- Auto-generated API clients based on AsyncAPI documents (same applies for OpenAPI). FoFor example when the API version change, so does the clients to interact with it, without anyone moving a finger. This includes correctly versioning the auto-generated clients.
+- Auto-generated x based on JSON Schema documents, for example using [Modelina](https://github.com/asyncapi/modelina).
+
+
+## Users :family:
 
 Who uses Release Otto and for what?
 
